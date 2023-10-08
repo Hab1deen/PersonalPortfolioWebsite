@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- =====Font Awesome===== -->
+        <script src="https://kit.fontawesome.com/1ef1a83c85.js" crossorigin="anonymous"></script>
+        <title>My Portfolio Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">DEEN.COM</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+            <!-- ===== Profile ===== -->
+            <section class="profile bd-grid" id="profile">
+                <div class="section__pic-container">
+                  <img src="img-skills1.jpg"/>
+                </div>
+                <div class="section__text">
+                  <p class="section__text__p1">Hello, I'm</p>
+                  <h1 class="title">Ha bideen</h1>
+                  <p class="section__text__p2">Frontend Developer</p>
+                  <h5 class="section__text__p3">Study at Panyapiwat Institute Of Management<br>Faculty Of Engineering and Technology</h5>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('img-resume.pdf')">
+                      Download CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                      Contact Info
+                    </button>
+                  </div>
+                  <div id="socials-container">
+                    <img
+                      src="Logo_PIM.png" class="icon" onclick="location.href='https://www.pim.ac.th/'"
+                    />
+                    <img
+                      src="github.png"
+                      alt="My Github profile"
+                      class="icon"
+                      onclick="location.href='https://github.com/Hab1deen'"
+                    />
+                  </div>
+                </div>
+              </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="img-me.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">About Me</h2>
+                        <p class="about__text">Name : Habideen</p>
+                        <p class="about__text">LastName : Bunsalee</p>
+                        <p class="about__text">Age : 20 Years</p>
+                        <p class="about__text">From : Thailand</p>
+                        <p class="about__text"><i class="fa-solid fa-graduation-cap"></i> : Panyapiwat Institute Of Management</p>
+                        <p class="about__text"><i class="fa-solid fa-award"></i> : Engineering and Technology</p>
+                        <p class="about__text"><i class="fa-solid fa-phone"></i> : 092898xxxx</p> 
+                        <p class="about__text"><i class="fa-solid fa-envelope"></i> : habideen.bsl@gmail.com</p> 
+                        <p class="about__text"><i class="fa-solid fa-location-dot"></i> : Tiwanont, Nonthaburi, Thailand</p> 
+
+                    </div>                                   
+                </div>
+            </section>
+
+ <!--===== EDUCATION =====-->
+<section class="education section" id="education">
+    <h2 class="section-title education__title">Education</h2>
+    <div class="education__container bd-grid">
+      <div class="education__item">
+        <h3 class="education__title">June 2022 - Current</h3>
+        <p class="education__school">Panyapiwat Institute Of Management</p>
+        <p class="education__major">Faculty Of Engineering and Technology</p>
+        <p class="education__gpax">GPAX : 3.22</p>
+        <h3 class="education__title1">May 2019 - June 2022</h3>
+        <p class="education__scholl1">Thung Yang Daeng Phitthayakhom</p>
+        <p class="education__gpax1">GPAX : 3.77</p>
+      </div>
+    </div>
+</section>
+
+<!--===== EXPERIENCE =====-->
+<section class="experience section" id="experience">
+    <h2 class="section-title experience__title">Experience</h2>
+    <div class="experience__container bd-grid">
+      <div class="experience__item">
+        <h3 class="experience__title">March 2023 - May 2023 Intership at 7-Eleven</h3>
+        <p class="experience__description">Stock shelves with merchandise and organize.<br>Maintain a clear and orderly work area.<br>greet customers warmly and provide exxellent customers sevice.</p>
+      </div>
+    </div>
+</section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Language / FrameWork / Tools</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-brands fa-html5 fa-xl" style="color: #ff7b00;"></i> HTML5</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-brands fa-css3-alt fa-xl" style="color: #004cff;"></i> CSS3</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-brands fa-square-js fa-xl" style="color: #ffdd00;"></i> JAVASCRIPT</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                               <span class="skills__name"><i class="fa-brands fa-java fa-xl" style="color: #ff0000;"></i> Java</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-solid fa-database fa-xl" style="color: #798499;"></i> SQL</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-brands fa-bootstrap fa-xl" style="color: #6a00a3;"></i> Bootstrap</span>
+                            </div>
+                            <div>
+                                <span>Beginner</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><i class="fa-solid fa-laptop-code fa-xl" style="color: #003670;"></i> Visual Studio Code</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                    <div>              
+                        <img src="skills3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">My Channel</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon" onclick="location.href='https://web.facebook.com/profile.php?id=100008135169190'"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="footer__icon" onclick="location.href='https://www.instagram.com/habidiinz._/'"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="footer__icon" onclick="location.href='mailto:habideen.bsl@gmail.com'"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="footer__copy">Thank you !</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="script.js"></script>
+    </body>
+</html>
